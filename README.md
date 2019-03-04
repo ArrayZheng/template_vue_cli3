@@ -1,5 +1,10 @@
 # vue-template
 
+featured vue2(fa, cli3), webpack4, i18n, element-ui, axios, stylus
+
+* webpack config in vue.config.js, check [configuration reference](https://cli.vuejs.org/guide/webpack.html).
+
+
 ## Project setup
 ```
 npm install
@@ -7,7 +12,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev / npm run serve
 ```
 
 ### Compiles and minifies for production
@@ -31,4 +36,4 @@ npm run test:unit
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See full guide: [Configuration Reference](https://cli.vuejs.org/config/).
