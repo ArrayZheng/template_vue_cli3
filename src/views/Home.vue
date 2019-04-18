@@ -8,13 +8,14 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
-
+import homeJs from './home'
 export default {
   name: 'home',
   components: {
     HelloWorld
   },
   mounted() {
+    homeJs.test('ss')
     this.$message('powered by elementUI')
   },
 }
